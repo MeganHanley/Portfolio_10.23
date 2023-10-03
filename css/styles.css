@@ -1,0 +1,395 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url("../images/radialBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+color: rgba(247, 239, 233, 1);
+text-align: center;
+text-shadow: 10px 10px 20px rgba(32, 8, 36, 0.30);
+font-family: Gantari;
+font-size: 120px;
+font-style: normal;
+font-weight: 700;
+line-height: 160px; /* 123.077% */
+letter-spacing: 9.1px;
+margin-top: 180px;
+margin-bottom: 6rem;
+}
+
+h3 {
+color: #200824;
+font-family: Gantari, sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 45px; /* 150% */
+letter-spacing: 1.2px;
+}
+
+h4 {
+color: #200824;
+font-family: Gantari, sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+line-height: 40px;
+letter-spacing: 0.6px;    
+}
+
+h5 {
+    color: #200824;
+    font-family: Gantari, sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.6px;      
+}
+
+p {
+    color: #200824;
+    font-family: Gantari, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+nav .container-fluid {
+    display: inline-block;
+    position: static;
+    height: 6rem ;
+    background-image: url("../images/radialBackground.png");
+    background-size: cover;
+    margin-top: -12px;
+    margin-bottom: -12px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05) inset, 0px 17px 38px 0px rgba(0, 0, 0, 0.05) inset, 0px 69px 69px 0px rgba(0, 0, 0, 0.04) inset, 0px 154px 93px 0px rgba(0, 0, 0, 0.03) inset, 0px 275px 110px 0px rgba(0, 0, 0, 0.01) inset, 0px 429px 120px 0px rgba(0, 0, 0, 0.00) inset, -10px -10px 20px 0px rgba(255, 255, 255, 0.70), 10px 10px 24px 0px rgba(32, 8, 36, 0.40);
+}
+    
+.mainLogo {
+    align-items: flex-start;
+    margin-top: 33px;
+    vertical-align: middle;
+    height: fit-content;
+}
+
+.img-fluid {
+   height: auto;
+   width: auto;
+}
+
+.navbar-toggler {
+    margin-top: 0px;
+    align-items: flex-end;
+    vertical-align: middle;
+    height: fit-content;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+#heroIntro {
+    width: 615px;
+    height: 250px;
+    flex-shrink: 0;
+    align-items: center;
+    fill: rgba(247, 239, 233, 0.40);
+    background-blend-mode: overlay;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05) inset, 0px 17px 38px 0px rgba(0, 0, 0, 0.05) inset, 0px 69px 69px 0px rgba(0, 0, 0, 0.04) inset, 0px 154px 93px 0px rgba(0, 0, 0, 0.03) inset, 0px 275px 110px 0px rgba(0, 0, 0, 0.01) inset, 0px 429px 120px 0px rgba(0, 0, 0, 0.00) inset, -10px -10px 20px 0px rgba(255, 255, 255, 0.70), 10px 10px 24px 0px rgba(32, 8, 36, 0.40);
+    margin: 0 auto;
+    margin-bottom: 28px;
+    border-radius: 30px;  
+}
+
+#heroIntro div {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+
+#heroIntro button {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2.5%;
+}
+.aboutMe {
+    display: grid;
+    grid-template-columns: 35% 75%;
+    grid-template-rows: 30% 30% 30% 10%;
+    height: fit-content;
+    width: 100%;
+    margin-top: 6rem;
+}
+.titleBar {
+    height: 75px;
+    background: rgba(243, 243, 243, 0.35);
+    background-blend-mode: overlay;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(50px);
+    border-radius: 12px 12px 0 0;
+}
+
+.titleBar h3 {
+    text-align: center;
+    padding-top: .85rem;
+}
+
+.bioCard {
+    border: 10%;
+    margin-left: 12%;
+    height: fit-content;
+    max-height: 800px;
+    border-radius: 12px;
+    background: rgba(249, 241, 235, 0.35);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05) inset, 0px 17px 38px 0px rgba(0, 0, 0, 0.05) inset, 0px 69px 69px 0px rgba(0, 0, 0, 0.04) inset, 0px 154px 93px 0px rgba(0, 0, 0, 0.03) inset, 0px 275px 110px 0px rgba(0, 0, 0, 0.01) inset, 0px 429px 120px 0px rgba(0, 0, 0, 0.00) inset, -10px -10px 20px 0px rgba(119, 89, 124, 0.40), 10px 10px 24px 0px rgba(0, 0, 0, 0.40);
+    backdrop-filter: blur(50px);
+}
+
+.cardContainer {
+    height: fit-content;
+}
+
+.bioCard img {
+    margin-top: 1rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.bioCard p {
+    padding: .6rem;
+}
+
+.bioCard .btn {
+    width: 50%;
+    margin-left: 24%;
+    margin-bottom: 1rem;
+}
+
+.column {
+    height: fill;
+}
+
+.skill-1 {
+  border: 10%;  
+  border-radius: 12px;
+  margin-left: 5.75%;
+  margin-bottom: 2.15%;
+  width: 75%;
+  height: fit-content;
+  background: rgba(249, 241, 235, 0.35);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05) inset, 0px 17px 38px 0px rgba(0, 0, 0, 0.05) inset, 0px 69px 69px 0px rgba(0, 0, 0, 0.04) inset, 0px 154px 93px 0px rgba(0, 0, 0, 0.03) inset, 0px 275px 110px 0px rgba(0, 0, 0, 0.01) inset, 0px 429px 120px 0px rgba(0, 0, 0, 0.00) inset, -10px -10px 20px 0px rgba(119, 89, 124, 0.40), 10px 10px 24px 0px rgba(0, 0, 0, 0.40);
+    backdrop-filter: blur(50px);
+
+}
+
+.skill-1 h5 {
+margin-left: 2rem;
+margin-top: .5rem;
+margin-bottom: -2%;
+}
+
+.skill-1 p {
+    color: #200824;
+    line-height: 20px;
+    margin-bottom: .75rem;
+    margin-top: .5rem;
+    margin-left: 1rem;
+}
+
+.skill-1 .card-body {
+    margin-left: 2.5%;
+}
+
+.skill-1 li {
+    color: #200824;
+    font-family: Gantari, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px; /* 150% */
+    letter-spacing: 2px;
+    list-style:circle;
+    margin-bottom: -7px;
+}
+
+.tools h5 {
+    margin-bottom: -3.3rem;
+    padding-top: 2%;
+}
+
+.tools p {
+    font-weight: 400;
+    text-align: center;
+    margin-left: auto;
+    padding-left: 2rem;
+    padding-bottom: .25rem;
+}
+
+.skill-1 .card-text2 {
+    padding-right: 2.5%;
+}
+
+.myWork {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.myWork .cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    width: 95%;
+    max-width: 1200px;
+    padding-bottom: 1.5rem;
+    border-radius: 12px;
+    background: rgba(249, 241, 235, 0.35);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05) inset, 0px 17px 38px 0px rgba(0, 0, 0, 0.05) inset, 0px 69px 69px 0px rgba(0, 0, 0, 0.04) inset, 0px 154px 93px 0px rgba(0, 0, 0, 0.03) inset, 0px 275px 110px 0px rgba(0, 0, 0, 0.01) inset, 0px 429px 120px 0px rgba(0, 0, 0, 0.00) inset, -10px -10px 20px 0px rgba(119, 89, 124, 0.40), 10px 10px 24px 0px rgba(0, 0, 0, 0.40);
+    backdrop-filter: blur(50px);
+}
+
+.myWork .titleBar {
+    margin-bottom: 1.5rem;
+}
+
+.myWork .card {
+    margin: 1rem;
+    width: 20%;
+    display: flex;
+    border-radius: 12px;
+    background: rgba(243, 243, 243, 0.35);
+    background-blend-mode: overlay;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(50px);
+}
+
+.projects .titleBar {
+    width: 288px;
+    height: 75px;
+    position: absolute;
+    align-items: flex-start;
+    margin-left: -13px;
+    margin-top: -1px;
+    text-align: center;
+}
+
+.titleBar h5 {
+    line-height: 35px;
+}
+
+.greyhound {
+    display: flex;
+    flex-direction: column;
+}
+
+.greyhound h5 {
+    padding-top: 1.15rem;
+    padding-left: 2.5rem;
+}
+
+.metra h5 {
+    padding-top: 1.15rem;
+    padding-left: .4rem;
+}
+
+.projects img {
+    width: 288px;
+    margin-left: -13px;
+}
+
+.projects .btn {
+    width: 75%;
+    margin-left: 12%;
+}
+
+@media only screen and (max-width: 991px) {
+    
+    .mainLogo {
+        margin-top: -28px;
+    }
+
+    .navbar-toggler {
+        margin-top: -50px;
+    }
+
+    #navbarNavDropdown {
+        padding-left: 75%;
+        margin-top: -40px;
+    }
+
+    .nav-link {
+        text-align: right;
+        padding-right: 8px;
+    }
+
+}
+
+@media only screen and (max-width: 1034px) {
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.tools h5 {
+    margin-top: 5px;
+    margin-bottom: -1rem;
+    }
+
+.tools p {
+    text-align: left;
+    padding-bottom: -3rem;
+    margin-left: -12rem;
+    }
+
+.myWork .card {
+    margin: .5rem;
+    width: 20%;
+    border-radius: 12px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .tools p {
+        text-align: right;
+        padding-right: 4rem;
+    }
+}
+
+@media only screen and (max-width: 1116px) {
+
+    .bioCard img {
+        margin-top: 1rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        margin-bottom: -1rem;
+    }
+
+    .tools p {
+        text-align: right;
+        padding-right: 5%;
+    }
+}
+/*  Mobile/tablet design
+
+@media only screen and (max-width: 900px) {
+   
+}
