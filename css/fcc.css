@@ -1,0 +1,317 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/*Typography Start*/
+
+h1 {
+    font-family: gantari, sans-serif;
+    color: #163C96;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 4px;
+}
+
+h2 {
+    color: #000;
+    font-family: Gantari;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px; /* 112.5% */
+    letter-spacing: 3.2px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+h3 {
+    color: #FFF;
+    font-family: Gantari;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 133.333% */
+    letter-spacing: 2.4px;
+}
+
+h4 {
+  font-family: gantari, sans-serif;
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 1.6px;
+}
+
+h5 {
+   
+}
+
+p {
+    color: #000;
+    font-family: Gantari;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-indent: 40px;
+}
+
+/*Typography End*/
+
+
+
+
+/*Navigation*/
+
+nav .container-fluid {
+    display: inline-block;
+    position: static;
+    height: 6rem ;
+    background-color: #4D71C8;
+    background-size: cover;
+    margin-top: -12px;
+    margin-bottom: -12px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05) inset, 0px 17px 38px 0px rgba(0, 0, 0, 0.05) inset, 0px 69px 69px 0px rgba(0, 0, 0, 0.04) inset, 0px 154px 93px 0px rgba(0, 0, 0, 0.03) inset, 0px 275px 110px 0px rgba(0, 0, 0, 0.01) inset, 0px 429px 120px 0px rgba(0, 0, 0, 0.00) inset, -10px -10px 20px 0px rgba(255, 255, 255, 0.70), 10px 10px 24px 0px rgba(32, 8, 36, 0.40);
+}
+    
+.mainLogo {
+    align-items: flex-start;
+    margin-top: 33px;
+    vertical-align: middle;
+    height: fit-content;
+}
+
+.img-fluid {
+   height: auto;
+   width: auto;
+}
+
+.navbar-toggler {
+    margin-top: 0px;
+    align-items: flex-end;
+    vertical-align: middle;
+    height: fit-content;
+    border-color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+/*Navigation End*/
+
+
+
+
+/*Side Nav Start*/
+
+.side-nav {
+    height: fill;
+    width: 25%;
+    background-color: #163C96;
+    margin-left: -1rem;
+}
+
+.stickyMenu {
+    height: 400px;
+    padding-top: 5vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.stickyMenu h3 {
+    padding-bottom: 20px;
+}
+
+.stickyMenu li {
+    padding-bottom: 20px;
+}
+
+/*Side Nav End*/
+
+
+
+
+/*Content Start*/
+
+.container-fluid {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    height: 100vh fit-content;
+    width: 75%;
+    background-color: aqua;
+    margin-left: .9rem;
+    padding-top: 5vh;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 5vh;
+}
+
+/*Content End*/
+
+
+
+/*Hero Start*/
+
+.hero h1 {
+    
+}
+
+/*Hero End*/
+
+
+
+/*My Contributions Start*/
+
+.imageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#image-1, #image-2 {
+    width: 35%;
+    padding-inline: 1rem;
+    margin-block: 2rem;;
+}
+
+
+/*My Contributions End*/
+
+
+
+
+/*Discovery Process Start*/
+
+#image-3 {
+    width: 100%;
+    margin-block: 2rem;
+}
+
+#image-4 {
+    width: 75%;
+    margin-block: 2rem;
+}
+
+/*Discovery Process End*/
+
+
+
+
+/*Research Start*/
+
+#image-5 {
+    width: 100%;
+    margin-block: 2rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000;
+}
+
+/*Research End*/
+
+
+
+/*Ideation Start*/
+
+#image-6 {
+    width: 75%;
+    margin-block: 2rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000;
+}
+
+#image-7 {
+    width: 90%;
+    margin-block: 2rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000;
+}
+    
+/*Ideation End*/
+
+
+/*Lo-Fi Tests Start*/
+
+#image-8 {
+    height: 45%;
+    width: 45%;
+    margin-right: 1rem;
+}
+
+#image-9 {
+    height: 23%;
+    width: 23%;
+    margin-left: 1rem;
+}
+
+#image-10 {
+    width: 80%;
+}
+
+#image-8, #image-9, #image-10 {
+    margin-block: 2rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/*Lo-Fi Tests End*/
+
+
+
+/*High-Fi Prototype Start*/
+
+#image-11 {
+    width: 90%;
+    margin-block: 2rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/*High-Fi Prototype Start*/
+
+/*Media Queries Start*/
+
+@media only screen and (max-width: 991px) {
+    
+    .mainLogo {
+        margin-top: -28px;
+    }
+
+    .navbar-toggler {
+        margin-top: -50px;
+    }
+
+    .nav-link {
+        color: #163C96;
+    }
+
+    #navbarNavDropdown {
+        padding-left: 75%;
+        margin-top: -40px;
+    }
+
+    .nav-link {
+        text-align: right;
+        padding-right: 8px;
+    }
+
+}

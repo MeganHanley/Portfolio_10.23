@@ -9,6 +9,10 @@ body {
     background-size: cover;
 }
 
+
+
+/*Typography Start*/
+
 h1 {
 color: rgba(247, 239, 233, 1);
 text-align: center;
@@ -62,10 +66,13 @@ p {
     letter-spacing: 2px;
 }
 
+/*Typography End*/
 
 
 
 
+
+/*Navigation Start*/
 
 nav .container-fluid {
     display: inline-block;
@@ -95,7 +102,20 @@ nav .container-fluid {
     align-items: flex-end;
     vertical-align: middle;
     height: fit-content;
+    border-color: #200824;
 }
+
+.nav-link {
+    color: #200824;
+}
+
+/*Navigation End*/
+
+
+
+
+
+/*Hero Start*/
 
 #hero {
     display: flex;
@@ -121,11 +141,20 @@ nav .container-fluid {
     margin-top: 28px;
 }
 
-#heroIntro button {
+#heroIntro .btn {
     width: 50%;
     margin-left: 25%;
     margin-top: 2.5%;
 }
+
+/*Hero End*/
+
+
+
+
+
+/*About Me Start*/
+
 .aboutMe {
     display: grid;
     grid-template-columns: 35% 75%;
@@ -242,6 +271,15 @@ margin-bottom: -2%;
     padding-right: 2.5%;
 }
 
+/*About Me End*/
+
+
+
+
+
+
+/*Projects Start*/
+
 .myWork {
     margin-top: 6rem;
     margin-bottom: 6rem;
@@ -316,6 +354,15 @@ margin-bottom: -2%;
     width: 75%;
     margin-left: 12%;
 }
+
+/*Projects End*/
+
+
+
+
+
+
+/*Media Queries*/
 
 @media only screen and (max-width: 991px) {
     
